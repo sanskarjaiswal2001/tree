@@ -1,0 +1,12 @@
+__pycache__
+build
+dist
+upx-4.1.0-win64
+venv
+.prettierrc
+modules_used
+steps.txt
+test_json.py
+test.py
+tree.spec
+upx-4.1.0-win64.zip
