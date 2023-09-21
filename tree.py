@@ -19,10 +19,13 @@ PARENT_FOLDER = os.environ.get("PARENT_FOLDER")
 APP_DATA_FOLDER = os.environ.get("APP_DATA_FOLDER")
 STEPS_FILE = os.environ.get("STEPS_FILE")
 SLEEP_TIME = int(os.environ.get("SLEEP_TIME"))
-# config for print_tree
+GET_SCREENSHOT = bool(int(os.environ.get("GET_SCREENSHOT")))
+# config for print_tree rpaframework in-built function
 LOG = bool(int(os.environ.get("LOG")))
 MAX_DEPTH = int(os.environ.get("MAX_DEPTH"))
-RETURN_STRUCTURE =  os.environ.get("RETURN_STRUCTURE")# Need this as true for the code to work
+
+# NOTE : Need this as true for the code to generate tree.json and tree.txt
+RETURN_STRUCTURE =  bool(int(os.environ.get("RETURN_STRUCTURE")))
 
 #-------------------CODE--------------------------
 
@@ -35,7 +38,6 @@ def get_name(executable):
 def extract(input_string):
     # Split the input text into lines
     lines = input_string.strip().split("\n")
-    # print(lines)
     extracted_data = []
     pattern = r"item=(.*?), locator='(.*?)', name='(.*?)', automation_id='(.*?)', control_type='(.*?)', class_name='(.*?)', left=(\d+), right=(\d+), top=(\d+), bottom=(\d+), width=(\d+), height=(\d+), xcenter=(\d+), ycenter=(\d+)"
     path_re = r"path:(.*)"
@@ -153,12 +155,19 @@ def parse_tree(tree):
 def run_additional_steps(filename):
     try:
         with open(filename, 'r') as steps_file:
+            i = 0
+            image_location = "images"
+            os.mkdir(image_location)
             for line in steps_file:
                 # Remove leading and trailing whitespaces
                 step = line.strip()
                 if step:
                     print(f"Running step: {step}")
                     exec(step)
+                    if GET_SCREENSHOT:
+                        i+=1
+                        image_name = f"{step}.png"
+                        window.screenshot(locator=None,filename=f'{image_location}\\{image_name}')
     except FileNotFoundError:
         print("Steps file not found.")
         print("Running without additional steps")
@@ -212,8 +221,8 @@ def get_system_info(output_file_path,when_was_this_logged):
 
 def main_logic():
     parser = argparse.ArgumentParser(description='Automate Windows application DOM tree extraction')
-    parser.add_argument('-i', '--appname', required=True, help='Application name to run')
-    parser.add_argument('-o', '--outputpath', required=True, help='Path to write output data')
+    parser.add_argument('-i', '--appname', required=True, help='Application name or complete path to exe to run')
+    parser.add_argument('-o', '--outputpath', required=True, help='Path to write output data to')
     args = parser.parse_args()
     global PARENT_FOLDER
     PARENT_FOLDER = args.outputpath
@@ -223,14 +232,15 @@ def main_logic():
         what_to_run = args.appname
         launch_window(what_to_run)
         run_additional_steps(STEPS_FILE)
-        os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
-        tree = window.print_tree(
-            # capture_image_folder=f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\images",
-            return_structure=RETURN_STRUCTURE,
-            max_depth=MAX_DEPTH,
-            log_as_warnings=LOG
-            )
-        parse_tree(tree)
+        if RETURN_STRUCTURE:
+            os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
+            tree = window.print_tree(
+                # capture_image_folder=f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\images",
+                return_structure=RETURN_STRUCTURE,
+                max_depth=MAX_DEPTH,
+                log_as_warnings=LOG
+                )
+            parse_tree(tree)
     finally:
         window.close_current_window()
 
