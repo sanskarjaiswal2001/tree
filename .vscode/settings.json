@@ -1,0 +1,4 @@
+{
+  "python.analysis.extraPaths": ["d:/RPA/tree/record/."],
+  "python.terminal.activateEnvironment": false
+}

@@ -3,11 +3,13 @@ import re,os,json,shutil,sys,timeit,time
 import psutil
 import tracemalloc
 import argparse
+from uiautomation import *
 window = Windows()
 #----------------CONFIG--------------------------
 PARENT_FOLDER = "application_DOM_data"
 APP_DATA_FOLDER = "app_data"
 STEPS_FILE = "steps.txt"
+SLEEP_TIME = 0
 # config for print_tree
 LOG = False
 MAX_DEPTH = 10000
@@ -121,8 +123,7 @@ def create_tree_json():
         json.dump(nested_data, output_file, indent=4)
             
 def launch_window(what_to_run):
-    window.windows_run(what_to_run) 
-    window.send_keys(keys="{WIN}{UP}")
+    window.windows_search(what_to_run) 
     name = get_name(what_to_run)
     if name == None:
         print("No program found")
@@ -130,7 +131,7 @@ def launch_window(what_to_run):
     else:
         global APP_DATA_FOLDER
         APP_DATA_FOLDER = f"{name}_version_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
-        time.sleep(10)
+        time.sleep(SLEEP_TIME)
         window.control_window(name)
 
 def parse_tree(tree):
