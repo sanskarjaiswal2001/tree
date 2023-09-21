@@ -1,0 +1,2367 @@
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5DE16D10>
+locator: New Tab - Google Chrome and type:PaneControl > path:1
+path: 1
+name: Restore pages?
+automation_id: 
+control_type: PaneControl
+class_name: Chrome_WidgetWin_1
+
+Data :
+item: <uiautomation.uiautomation.DocumentControl object at 0x0000020B5DE169D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2
+path: 2
+name: New Tab
+automation_id: 10386032
+control_type: DocumentControl
+class_name: Chrome_RenderWidgetHostHWND
+
+Data :
+item: <uiautomation.uiautomation.DocumentControl object at 0x0000020B5F47AA10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3
+path: 3
+name: DevTools
+automation_id: 19094224
+control_type: DocumentControl
+class_name: Chrome_RenderWidgetHostHWND
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47AA50>
+locator: New Tab - Google Chrome and type:PaneControl > path:4
+path: 4
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: Intermediate D3D Window
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47B210>
+locator: New Tab - Google Chrome and type:PaneControl > path:6
+path: 6
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47B590>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|1
+path: 1|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: Intermediate D3D Window
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47B5D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2
+path: 1|2
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F480E50>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1
+path: 2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48EC50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1
+path: 3|1
+name: 
+automation_id: -blink-dev-tools
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuBarControl object at 0x0000020B5F593390>
+locator: New Tab - Google Chrome and type:PaneControl > path:5|1
+path: 5|1
+name: System
+automation_id: MenuBar
+control_type: MenuBarControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F593F10>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1
+path: 6|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47B7D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1
+path: 1|2|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5C7F7250>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1
+path: 2|1|1
+name: 
+automation_id: content
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48EE50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1
+path: 3|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F5937D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:5|1|1
+path: 5|1|1
+name: System
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F593DD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|1
+path: 6|1|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59C190>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2
+path: 6|1|2
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47B910>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|1
+path: 1|2|1|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F47BA50>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|2
+path: 1|2|1|2
+name: Close
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F47BB10>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|3
+path: 1|2|1|3
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481290>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1
+path: 2|1|1|1
+name: 
+automation_id: oneGoogleBar
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481390>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2
+path: 2|1|1|2
+name: 
+automation_id: realboxContainer
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481450>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3
+path: 2|1|1|3
+name: 
+automation_id: container
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481510>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|4
+path: 2|1|1|4
+name: 
+automation_id: customizeButtonContainer
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F110>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1
+path: 3|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F59C2D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|1|1
+path: 6|1|1|1
+name: Search tabs
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59C410>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|1|2
+path: 6|1|1|2
+name: Minimize
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59C4D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|1|3
+path: 6|1|1|3
+name: Restore
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59C590>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|1|4
+path: 6|1|1|4
+name: Close
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F592990>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1
+path: 6|1|2|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59CCD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|2
+path: 6|1|2|2
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TitleBarControl object at 0x0000020B5F47BC10>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|1|1
+path: 1|2|1|1|1
+name: Restore pages?
+automation_id: 
+control_type: TitleBarControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F4801D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|3|1
+path: 1|2|1|3|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F480310>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|3|2
+path: 1|2|1|3|2
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F481650>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1
+path: 2|1|1|1|1
+name: 
+automation_id: iframe
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48C090>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1
+path: 2|1|1|2|1
+name: 
+automation_id: inputWrapper
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F48CE10>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|1
+path: 2|1|1|3|1
+name: Vite + React
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F48CF10>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|2
+path: 2|1|1|3|2
+name: Web Store
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48CFD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|3
+path: 2|1|1|3|3
+name: Add shortcut
+automation_id: addShortcut
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48E050>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|4|1
+path: 2|1|1|4|1
+name: Customize Chrome
+automation_id: customizeButton
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F290>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1
+path: 3|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabControl object at 0x0000020B5F59CE90>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1
+path: 6|1|2|1|1
+name: 
+automation_id: 
+control_type: TabControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ToolBarControl object at 0x0000020B5F59CFD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2
+path: 6|1|2|1|2
+name: 
+automation_id: 
+control_type: ToolBarControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59D090>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|3
+path: 6|1|2|1|3
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F480910>
+locator: New Tab - Google Chrome and type:PaneControl > path:1|2|1|3|2|3
+path: 1|2|1|3|2|3
+name: Restore
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.DocumentControl object at 0x0000020B5F481890>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1
+path: 2|1|1|1|1|1
+name: 
+automation_id: 
+control_type: DocumentControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ComboBoxControl object at 0x0000020B5F48C290>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1|1
+path: 2|1|1|2|1|1
+name: Search Google or type a URL
+automation_id: input
+control_type: ComboBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48C3D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1|2
+path: 2|1|1|2|1|2
+name: 
+automation_id: icon
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48C490>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1|3
+path: 2|1|1|2|1|3
+name: Search by voice
+automation_id: voiceSearchButton
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48C550>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1|4
+path: 2|1|1|2|1|4
+name: Search by image
+automation_id: lensSearchButton
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48D210>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|1|1
+path: 2|1|1|3|1|1
+name: More actions for Vite + React shortcut
+automation_id: actionMenuButton
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F48D710>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|2|1
+path: 2|1|1|3|2|1
+name: More actions for Web Store shortcut
+automation_id: actionMenuButton
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48DC90>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|3|1
+path: 2|1|1|3|3|1
+name: 
+automation_id: background
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48E290>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|4|1|1
+path: 2|1|1|4|1|1
+name: 
+automation_id: background
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48E410>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|4|1|2
+path: 2|1|1|4|1|2
+name: 
+automation_id: customizeText
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F490>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|1
+path: 3|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F5D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2
+path: 3|1|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F690>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|3
+path: 3|1|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59D210>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|1
+path: 6|1|2|1|1|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59D350>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|2
+path: 6|1|2|1|1|2
+name: New Tab
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59D410>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|3
+path: 6|1|2|1|1|3
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59E0D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1
+path: 6|1|2|1|2|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481A90>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1
+path: 2|1|1|1|1|1|1
+name: 
+automation_id: gb
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48C810>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|2|1|2|1
+path: 2|1|1|2|1|2|1
+name: 
+automation_id: container
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48D3D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|1|1|1
+path: 2|1|1|3|1|1|1
+name: 
+automation_id: icon
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48D8D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|3|2|1|1
+path: 2|1|1|3|2|1|1
+name: 
+automation_id: icon
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F48E750>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|4|1|2|1
+path: 2|1|1|4|1|2|1
+name: Customize Chrome
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F7D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|1|1
+path: 3|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48FE10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1
+path: 3|1|1|1|1|2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59D590>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|1|1
+path: 6|1|2|1|1|1|1
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59D6D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|1|2
+path: 6|1|2|1|1|1|2
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59E250>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|1
+path: 6|1|2|1|2|1|1
+name: Back
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59E390>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|2
+path: 6|1|2|1|2|1|2
+name: Forward
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59E450>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|3
+path: 6|1|2|1|2|1|3
+name: Reload
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F59E510>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4
+path: 6|1|2|1|2|1|4
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59E5D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|5
+path: 6|1|2|1|2|1|5
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59E6D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|6
+path: 6|1|2|1|2|1|6
+name: Show side panel
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59E810>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|7
+path: 6|1|2|1|2|1|7
+name: You
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F59E8D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|8
+path: 6|1|2|1|2|1|8
+name: Chrome
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F481E10>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2
+path: 2|1|1|1|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48F9D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|1|1|1
+path: 3|1|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48FFD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F59D850>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|1|1|1
+path: 6|1|2|1|1|1|1|1
+name: New Tab
+automation_id: 
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ImageControl object at 0x0000020B5F59EE10>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4|1
+path: 6|1|2|1|2|1|4|1
+name: Search icon
+automation_id: 
+control_type: ImageControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.EditControl object at 0x0000020B5F59EF50>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4|2
+path: 6|1|2|1|2|1|4|2
+name: Address and search bar
+automation_id: 
+control_type: EditControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.PaneControl object at 0x0000020B5F59F010>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4|3
+path: 6|1|2|1|2|1|4|3
+name: 
+automation_id: 
+control_type: PaneControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F59F850>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|5|1
+path: 6|1|2|1|2|1|5|1
+name: Extensions
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F482090>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|1
+path: 2|1|1|1|1|1|1|2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F482190>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2
+path: 2|1|1|1|1|1|1|2|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F482250>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|3
+path: 2|1|1|1|1|1|1|2|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F48FB90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|1|1|1|1
+path: 3|1|1|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4941D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1
+path: 3|1|1|1|1|2|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59DAD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|1|1|1|1|1
+path: 6|1|2|1|1|1|1|1|1
+name: Close
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59F390>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4|3|1
+path: 6|1|2|1|2|1|4|3|1
+name: Share this page
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F59F4D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:6|1|2|1|2|1|4|3|2
+path: 6|1|2|1|2|1|4|3|2
+name: Bookmark this tab
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F482390>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|1|1
+path: 2|1|1|1|1|1|1|2|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4824D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|1
+path: 2|1|1|1|1|1|1|2|2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F482850>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|2
+path: 2|1|1|1|1|1|1|2|2|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F483650>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|3|1
+path: 2|1|1|1|1|1|1|2|3|1
+name: 
+automation_id: gbwa
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4943D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4944D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F494550>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F4825D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|1|1|1
+path: 2|1|1|1|1|1|1|2|1|1|1
+name: 
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F482C10>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|1|1
+path: 2|1|1|1|1|1|1|2|2|1|1
+name: Gmail (opens a new tab)
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F483150>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|2|1
+path: 2|1|1|1|1|1|1|2|2|2|1
+name: Search for Images (opens a new tab)
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F483850>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|3|1|1
+path: 2|1|1|1|1|1|1|2|3|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4947D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F5826D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|2|1
+name: Tool drawer
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F482E10>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|1|1|1
+path: 2|1|1|1|1|1|1|2|2|1|1|1
+name: Gmail
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F483310>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|2|2|1|1
+path: 2|1|1|1|1|1|1|2|2|2|1|1
+name: Images
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F483A50>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|3|1|1|1
+path: 2|1|1|1|1|1|1|2|3|1|1|1
+name: Google apps
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4949D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F5828D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ImageControl object at 0x0000020B5F483C90>
+locator: New Tab - Google Chrome and type:PaneControl > path:2|1|1|1|1|1|1|2|3|1|1|1|1
+path: 2|1|1|1|1|1|1|2|3|1|1|1|1
+name: 
+automation_id: 
+control_type: ImageControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F494B90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1
+name: Main toolbar
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F494D10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F582AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F582590>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|2
+path: 3|1|1|1|1|2|1|1|1|2|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F582C50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|3
+path: 3|1|1|1|1|2|1|1|1|2|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F582D10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F494F10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F494DD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F495090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CustomControl object at 0x0000020B5F4A0690>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1
+name: Network panel
+automation_id: 
+control_type: CustomControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F582ED0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|1|1
+name: More Tools
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabControl object at 0x0000020B5F583250>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|2|1
+name: 
+automation_id: 
+control_type: TabControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F583310>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|2|2
+path: 3|1|1|1|1|2|1|1|1|2|1|1|2|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F583B10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|3|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|3|1
+name: Close drawer
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F495290>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|1|1
+name: Select an element in the page to inspect it
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F495390>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|1|2
+name: Toggle device toolbar
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F495410>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabControl object at 0x0000020B5F495A90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|1
+name: Panels
+automation_id: 
+control_type: TabControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F4959D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|2
+name: More tabs
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F495C50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F496C10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F496AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F496D90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|3
+name: Settings
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.MenuItemControl object at 0x0000020B5F496ED0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|4
+name: Customize and control DevTools
+automation_id: 
+control_type: MenuItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F496FD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|5
+name: Close
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A0950>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1
+name: network
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F5834D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|2|1|1
+name: Console
+automation_id: tab-console-view
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F583F10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F495E50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|1
+name: Elements
+automation_id: tab-elements
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F495F50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|2
+name: Console
+automation_id: tab-console
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F495FD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|3
+name: Sources
+automation_id: tab-sources
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TabItemControl object at 0x0000020B5F496090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|2|1|4
+name: Network
+automation_id: tab-network
+control_type: TabItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4972D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1
+name: Open Issues to view 1 issue: 1 page error
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A0B90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F590190>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F497590>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A0DD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F590350>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F590450>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F497790>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1
+name: Open Issues to view 1 issue: 1 page error
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F5905D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|1|1
+name: Highlights from the Chrome 117 update
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListControl object at 0x0000020B5F5906D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1
+name: Highlights from the Chrome 117 update
+automation_id: 
+control_type: ListControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F590A10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|3
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|3
+name: Highlights from the Chrome 117 update
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F497AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F497BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|1|3|1|1|1|1|2
+name: 1
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1390>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F590BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|1
+name: New filter and better overrides in the Network panel
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F590CD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|2
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|2
+name: 
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ImageControl object at 0x0000020B5F592750>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|3|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|3|1
+name: Highlights from the Chrome 117 update
+automation_id: 
+control_type: ImageControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1590>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1690>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1710>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A17D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4
+name: 
+automation_id: network-overview-panel
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1890>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F591190>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|1|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|1|1
+name: New filter and better overrides in the Network panel
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F591490>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|2|1
+path: 3|1|1|1|1|2|1|1|1|2|1|1|4|1|1|1|2|1|2|1
+name: Filter out extension requests, override fetch and XHR requests, mock with overrides faster with better UI, and more.
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A1A90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|1
+name: Stop recording network log
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A1B90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|2
+name: Clear network log
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1C10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A1CD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|4
+name: Filter
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A1E10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|5
+name: Search
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A1F50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|6
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4A1FD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|7
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|7
+name: Preserve log
+automation_id: ui-checkbox-label7
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F4A2090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|8
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|8
+name: Do not clear log on page reload / navigation
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A2150>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|9
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|9
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4A21D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|10
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|10
+name: Disable cache
+automation_id: ui-checkbox-label8
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F4A2290>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|11
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|11
+name: Disable cache (while DevTools is open)
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A2350>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|12
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|12
+name: Throttling
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A2410>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|13
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|13
+name: More network conditions…
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A24D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|14
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|14
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A2590>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|15
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|15
+name: Import HAR file...
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4A2650>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|16
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|16
+name: Export HAR...
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B0250>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ButtonControl object at 0x0000020B5F4B0710>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|2|3
+name: Network settings
+automation_id: 
+control_type: ButtonControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B0BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|1
+name: e.g. /small[d]+/ url:a.com/b
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B0AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|2
+name: Inverts the search filter
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B0D50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|3
+name: Hides data: and blob: URLs
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListControl object at 0x0000020B5F4B0ED0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5
+name: Resource types to include
+automation_id: 
+control_type: ListControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B0FD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|6
+name: Show only the requests with blocked response cookies
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B1090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|7
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|7
+name: Show only blocked requests
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B1190>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|8
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|8
+name: Show only requests with origin different from page origin
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4B3CD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1
+name: Overview grid window
+automation_id: network-overview-container
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F580ED0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F4A32D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|8|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|8|1
+name: Preserve log
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F4A3810>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|11|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|11|1
+name: Disable cache
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ComboBoxControl object at 0x0000020B5F4A3C10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|12|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|12|1
+name: Throttling
+automation_id: 
+control_type: ComboBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F4A3F50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|13|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|1|13|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.EditControl object at 0x0000020B5F4B1350>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|1|1
+name: Filter
+automation_id: 
+control_type: EditControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B1450>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|2|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|2|1
+name: Invert
+automation_id: ui-checkbox-label1
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B1910>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|3|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|3|1
+name: Hide data URLs
+automation_id: ui-checkbox-label2
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B1C10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|4|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|4|1
+name: Hide extension URLs
+automation_id: ui-checkbox-label3
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B1B10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|1
+name: All
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B1DD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|2
+name: Fetch/XHR
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2050>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|3
+name: JS
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2150>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|4
+name: CSS
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2210>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|5
+name: Img
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2310>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|6
+name: Media
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B23D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|7
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|7
+name: Font
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2490>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|8
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|8
+name: Doc
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2550>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|9
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|9
+name: WS
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B25D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|10
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|10
+name: Wasm
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2690>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|11
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|11
+name: Manifest
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ListItemControl object at 0x0000020B5F4B2750>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|12
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|5|12
+name: Other
+automation_id: 
+control_type: ListItemControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B3850>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|6|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|6|1
+name: Blocked response cookies
+automation_id: ui-checkbox-label4
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B3710>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|7|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|7|1
+name: Blocked requests
+automation_id: ui-checkbox-label5
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.CheckBoxControl object at 0x0000020B5F4B0F50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|8|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|3|8|1
+name: 3rd-party requests
+automation_id: ui-checkbox-label6
+control_type: CheckBoxControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578290>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1
+name: 
+automation_id: network-overview-grid
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.SliderControl object at 0x0000020B5F578390>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|2
+name: Left Resizer
+automation_id: 
+control_type: SliderControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.SliderControl object at 0x0000020B5F578450>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|3
+name: Right Resizer
+automation_id: 
+control_type: SliderControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578510>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|4
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F5785D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|5
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F5786D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|6
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578790>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|7
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|7
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F581090>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578950>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578A50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.ImageControl object at 0x0000020B5F580BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|7|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|7|1
+name: 
+automation_id: 
+control_type: ImageControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F581290>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1
+name: 
+automation_id: network-container
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578C90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578D90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578E10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578ED0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|4
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F578F90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|5
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579110>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|1|6
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579910>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579D90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579E50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F579F10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57A010>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F5814D0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57A750>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57AA10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57AF50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57B490>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F57BB50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.GroupControl object at 0x0000020B5F581690>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1
+name: 
+automation_id: 
+control_type: GroupControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F57A950>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|2|1|1
+name: 20\xa0ms
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F57AE50>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|3|1|1
+name: 40\xa0ms
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F57B350>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|4|1|1
+name: 60\xa0ms
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F57B810>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|5|1|1
+name: 80\xa0ms
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F57BCD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|4|1|1|2|6|1|1
+name: 100\xa0ms
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F581890>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|1
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|1
+name: Recording network activity…
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F581A10>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|3
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|3
+name: Perform a request or hit
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F581AD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|4
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|4
+name: Ctrl\u200a+\u200aR
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.TextControl object at 0x0000020B5F581BD0>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|5
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|5
+name: to record the reload.
+automation_id: 
+control_type: TextControl
+class_name: 
+
+Data :
+item: <uiautomation.uiautomation.HyperlinkControl object at 0x0000020B5F581D90>
+locator: New Tab - Google Chrome and type:PaneControl > path:3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|7
+path: 3|1|1|1|1|2|1|1|1|1|1|1|2|1|1|1|1|1|1|5|1|1|1|1|1|7
+name: Learn more
+automation_id: 
+control_type: HyperlinkControl
+class_name: 
+

@@ -1,19 +1,28 @@
 from RPA.Windows import Windows
-import re,os,json,shutil,sys,timeit,time
+import re,os,json,sys,timeit,time,platform
 import psutil
+from dotenv import load_dotenv
 import tracemalloc
 import argparse
 from uiautomation import *
 window = Windows()
+load_dotenv()
+#----------------Minimum Requirements------------
+CPU_CORES = int(os.environ.get("CPU_CORES"))
+RAM = int(os.environ.get("RAM"))
+
+
 #----------------CONFIG--------------------------
-PARENT_FOLDER = "application_DOM_data"
-APP_DATA_FOLDER = "app_data"
-STEPS_FILE = "steps.txt"
-SLEEP_TIME = 0
+SCRIPT_NAME = os.environ.get("SCRIPT_NAME")
+MAX_CPU_USAGE = int(os.environ.get("MAX_CPU_USAGE")) #%
+PARENT_FOLDER = os.environ.get("PARENT_FOLDER")
+APP_DATA_FOLDER = os.environ.get("APP_DATA_FOLDER")
+STEPS_FILE = os.environ.get("STEPS_FILE")
+SLEEP_TIME = int(os.environ.get("SLEEP_TIME"))
 # config for print_tree
-LOG = False
-MAX_DEPTH = 10000
-RETURN_STRUCTURE = True # Need this as true for the code to work
+LOG = bool(int(os.environ.get("LOG")))
+MAX_DEPTH = int(os.environ.get("MAX_DEPTH"))
+RETURN_STRUCTURE =  os.environ.get("RETURN_STRUCTURE")# Need this as true for the code to work
 
 #-------------------CODE--------------------------
 
@@ -140,18 +149,6 @@ def parse_tree(tree):
             extract(str(item))
     create_tree_json()
 
-# def explore_tree(tree):
-#     for key in tree.keys():
-#         for item in tree[key]:
-#             if isinstance(item, dict) and "path" in item:
-#                 # Extract the path from the current component
-#                 path = item["path"]
-#                 print(f"Exploring component with path: {path}")
-#                 window.print_tree(path=path, max_depth=MAX_DEPTH, log_as_warnings=LOG)
-#                 # Recursively explore this component's tree
-#                 explore_tree(window.print_tree(
-#                     path=path, max_depth=MAX_DEPTH, log_as_warnings=LOG, return_structure=True
-#                 ))
 
 def run_additional_steps(filename):
     try:
@@ -176,7 +173,44 @@ def get_cpu_usage():
     cpu = psutil.cpu_percent(interval=1)
     return f"CPU Usage: {cpu}%"
 
-def main():
+def check_minimum_requirements():
+    total_cores = psutil.cpu_count()
+    print(f"Total Cores: {total_cores}")
+    ram_info = psutil.virtual_memory()
+    total_ram = ram_info.total // 10**6
+    print(f"Total RAM: {total_ram} MB") 
+    if total_cores >= CPU_CORES and total_ram >= RAM:
+        return True
+    else:
+        return False
+    
+def get_system_info(output_file_path,when_was_this_logged):
+    try:
+        # Get system information
+        heading = f"============================{when_was_this_logged}========================================"
+        total_cores = f"Total Cores :{psutil.cpu_count()}\n"
+        physical_cores = f"Physical Cores :{psutil.cpu_count(logical=False)}\n"
+        cpu_frequency = f"CPU Frequency :{psutil.cpu_freq()}\n"
+        disk_usage = f"Disk Usage:\n{psutil.disk_usage('/')}\n"
+        network_info = f"Network Info:\n{psutil.net_if_stats()}\n"
+
+        # Combine all the information
+        system_info = (
+            heading +
+            total_cores +
+            physical_cores +
+            cpu_frequency +
+            disk_usage
+        )
+        # Save the information to a text file
+        with open(output_file_path, 'a') as file:
+            file.write(system_info)
+
+        print(f"System information saved to {output_file_path}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+def main_logic():
     parser = argparse.ArgumentParser(description='Automate Windows application DOM tree extraction')
     parser.add_argument('-i', '--appname', required=True, help='Application name to run')
     parser.add_argument('-o', '--outputpath', required=True, help='Path to write output data')
@@ -188,12 +222,6 @@ def main():
             os.mkdir(PARENT_FOLDER)
         what_to_run = args.appname
         launch_window(what_to_run)
-        #Get rid of last run data for same application
-        # if os.path.exists(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}"):
-        #     shutil.rmtree(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
-        # os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
-        # if os.path.exists(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\images"):
-        #     shutil.rmtree(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\images")
         run_additional_steps(STEPS_FILE)
         os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
         tree = window.print_tree(
@@ -205,14 +233,16 @@ def main():
         parse_tree(tree)
     finally:
         window.close_current_window()
-        print(get_cpu_usage())  # Print CPU usage
-        
+
 if __name__ == "__main__":
-    tracemalloc.start()
-    execution_time = timeit.timeit(main, number=1)
-    print(f"Execution time: {execution_time} seconds")
-    print(f"Memory: {tracemalloc.get_traced_memory()[1]/10**6} MB")
-    tracemalloc.stop()
+    if check_minimum_requirements():
+        tracemalloc.start()
+        execution_time = timeit.timeit(main_logic, number=1)
+        print(f"Execution time: {execution_time} seconds")
+        print(f"Memory: {tracemalloc.get_traced_memory()[1]/10**6} MB")
+        tracemalloc.stop()
+    else:
+        print(f"Minimum requirements not met. Please check the requirements and try again.")
     
     
     
