@@ -2,6 +2,7 @@ from RPA.Windows import Windows
 import re,os,json,sys,timeit,time,platform
 import psutil
 from dotenv import load_dotenv
+import logging
 import tracemalloc
 import argparse
 from uiautomation import *
@@ -13,6 +14,7 @@ RAM = int(os.environ.get("RAM"))
 
 
 #----------------CONFIG--------------------------
+logging.basicConfig(filename='automation.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 SCRIPT_NAME = os.environ.get("SCRIPT_NAME")
 MAX_CPU_USAGE = int(os.environ.get("MAX_CPU_USAGE")) #%
 PARENT_FOLDER = os.environ.get("PARENT_FOLDER")
@@ -33,7 +35,9 @@ def get_name(executable):
     windows = window.list_windows()
     for item in windows:
         if item["name"].lower() == executable.lower() or item["path"].lower() == executable.lower():
+            logging.info(f"Window found for {executable}")
             return item["title"]
+    logging.error(f"Window not found for {executable}")
 
 def extract(input_string):
     # Split the input text into lines
@@ -97,7 +101,7 @@ def extract(input_string):
             for key, value in data.items():
                 file.write(f"{key}: {value}\n")
             file.write("\n")
-
+    logging.info(f"Extracted data from {PARENT_FOLDER}\\{APP_DATA_FOLDER}\\tree.txt")
 def create_tree_json():
     # Initialize a dictionary to store the nested data
     nested_data = {}
@@ -132,7 +136,7 @@ def create_tree_json():
     # Save the nested data as JSON
     with open(f'{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\tree.json', 'w', encoding='utf-8') as output_file:
         json.dump(nested_data, output_file, indent=4)
-            
+    logging.info(f"Created {PARENT_FOLDER}\\{APP_DATA_FOLDER}\\tree.json")
 def launch_window(what_to_run):
     window.windows_search(what_to_run) 
     name = get_name(what_to_run)
@@ -144,13 +148,14 @@ def launch_window(what_to_run):
         APP_DATA_FOLDER = f"{name}_version_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
         time.sleep(SLEEP_TIME)
         window.control_window(name)
+        logging.info(f"Launched {name}")
 
 def parse_tree(tree):
     for key in tree.keys():
         for item in tree[key]:
             extract(str(item))
     create_tree_json()
-
+    logging.info(f"parsed tree succesfully")
 
 def run_additional_steps(filename):
     try:
@@ -171,8 +176,10 @@ def run_additional_steps(filename):
     except FileNotFoundError:
         print("Steps file not found.")
         print("Running without additional steps")
+        logging.error(f"Steps file not found.")
     except Exception as e:
         print(f"Error while running steps: {e}")
+        logging.error(f"Error while running steps: {e}")
 
 def get_ram_usage():
     ram = psutil.virtual_memory()
@@ -189,8 +196,10 @@ def check_minimum_requirements():
     total_ram = ram_info.total // 10**6
     print(f"Total RAM: {total_ram} MB") 
     if total_cores >= CPU_CORES and total_ram >= RAM:
+        logging.info(f"Minimum requirements met. Continuing with execution.")
         return True
     else:
+        logging.error(f"Minimum requirements not met. Please check the requirements and try again.")
         return False
     
 def get_system_info(output_file_path,when_was_this_logged):
