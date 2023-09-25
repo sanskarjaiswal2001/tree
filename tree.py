@@ -8,18 +8,23 @@ import argparse
 from uiautomation import *
 window = Windows()
 load_dotenv()
+logging.basicConfig(filename='automation.log', level=logging.INFO, format='%(asctime)s - %(filename)s - %(levelname)s - %(message)s')
+parser = argparse.ArgumentParser(description='Automate Windows application DOM tree extraction')
+parser.add_argument('-i', '--appname', required=True, help='Application name or complete path to exe to run')
+parser.add_argument('-o', '--outputpath', required=True, help='Path to write output data to')
+args = parser.parse_args()
+PARENT_FOLDER = args.outputpath
+what_to_run = args.appname
 #----------------Minimum Requirements------------
 CPU_CORES = int(os.environ.get("CPU_CORES"))
 RAM = int(os.environ.get("RAM"))
 
 
 #----------------CONFIG--------------------------
-logging.basicConfig(filename='automation.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-SCRIPT_NAME = os.environ.get("SCRIPT_NAME")
 MAX_CPU_USAGE = int(os.environ.get("MAX_CPU_USAGE")) #%
-PARENT_FOLDER = os.environ.get("PARENT_FOLDER")
-APP_DATA_FOLDER = os.environ.get("APP_DATA_FOLDER")
+# PARENT_FOLDER = os.environ.get("PARENT_FOLDER")
 STEPS_FILE = os.environ.get("STEPS_FILE")
+# STEPS_FILE = "steps.txt"
 SLEEP_TIME = int(os.environ.get("SLEEP_TIME"))
 GET_SCREENSHOT = bool(int(os.environ.get("GET_SCREENSHOT")))
 # config for print_tree rpaframework in-built function
@@ -38,6 +43,8 @@ def get_name(executable):
             logging.info(f"Window found for {executable}")
             return item["title"]
     logging.error(f"Window not found for {executable}")
+name = get_name(what_to_run)
+APP_DATA_FOLDER = f"{name}_version_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
 
 def extract(input_string):
     # Split the input text into lines
@@ -144,8 +151,6 @@ def launch_window(what_to_run):
         print("No program found")
         sys.exit()
     else:
-        global APP_DATA_FOLDER
-        APP_DATA_FOLDER = f"{name}_version_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
         time.sleep(SLEEP_TIME)
         window.control_window(name)
         logging.info(f"Launched {name}")
@@ -162,7 +167,7 @@ def run_additional_steps(filename):
         with open(filename, 'r') as steps_file:
             i = 0
             image_location = "images"
-            os.mkdir(image_location)
+            os.mkdir(f'{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\{image_location}')
             for line in steps_file:
                 # Remove leading and trailing whitespaces
                 step = line.strip()
@@ -229,20 +234,13 @@ def get_system_info(output_file_path,when_was_this_logged):
         print(f"An error occurred: {e}")
 
 def main_logic():
-    parser = argparse.ArgumentParser(description='Automate Windows application DOM tree extraction')
-    parser.add_argument('-i', '--appname', required=True, help='Application name or complete path to exe to run')
-    parser.add_argument('-o', '--outputpath', required=True, help='Path to write output data to')
-    args = parser.parse_args()
-    global PARENT_FOLDER
-    PARENT_FOLDER = args.outputpath
     try:
         if not os.path.exists(PARENT_FOLDER):
             os.mkdir(PARENT_FOLDER)
-        what_to_run = args.appname
         launch_window(what_to_run)
+        os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
         run_additional_steps(STEPS_FILE)
         if RETURN_STRUCTURE:
-            os.mkdir(f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}")
             tree = window.print_tree(
                 # capture_image_folder=f"{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\images",
                 return_structure=RETURN_STRUCTURE,
