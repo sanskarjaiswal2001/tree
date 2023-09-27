@@ -1,9 +1,7 @@
 from RPA.Windows import Windows
-import re,os,json,sys,timeit,time,platform
-import psutil
+import re,os,json,sys,time,psutil
 from dotenv import load_dotenv
 import logging
-import tracemalloc
 import argparse
 from uiautomation import *
 window = Windows()
@@ -15,10 +13,10 @@ parser.add_argument('-o', '--outputpath', required=True, help='Path to write out
 args = parser.parse_args()
 PARENT_FOLDER = args.outputpath
 what_to_run = args.appname
+
 #----------------Minimum Requirements------------
 CPU_CORES = int(os.environ.get("CPU_CORES"))
 RAM = int(os.environ.get("RAM"))
-
 
 #----------------CONFIG--------------------------
 MAX_CPU_USAGE = int(os.environ.get("MAX_CPU_USAGE")) #%
@@ -177,7 +175,7 @@ def run_additional_steps(filename):
                     if GET_SCREENSHOT:
                         i+=1
                         image_name = f"{step}.png"
-                        window.screenshot(locator=None,filename=f'{image_location}\\{image_name}')
+                        window.screenshot(locator=None,filename=f'{PARENT_FOLDER}\\{APP_DATA_FOLDER}\\{image_location}\\{image_name}')
     except FileNotFoundError:
         print("Steps file not found.")
         print("Running without additional steps")
@@ -186,20 +184,10 @@ def run_additional_steps(filename):
         print(f"Error while running steps: {e}")
         logging.error(f"Error while running steps: {e}")
 
-def get_ram_usage():
-    ram = psutil.virtual_memory()
-    return f"RAM Usage: {ram}%"
-
-def get_cpu_usage():
-    cpu = psutil.cpu_percent(interval=1)
-    return f"CPU Usage: {cpu}%"
-
 def check_minimum_requirements():
     total_cores = psutil.cpu_count()
-    print(f"Total Cores: {total_cores}")
     ram_info = psutil.virtual_memory()
     total_ram = ram_info.total // 10**6
-    print(f"Total RAM: {total_ram} MB") 
     if total_cores >= CPU_CORES and total_ram >= RAM:
         logging.info(f"Minimum requirements met. Continuing with execution.")
         return True
@@ -250,14 +238,13 @@ def main_logic():
             parse_tree(tree)
     finally:
         window.close_current_window()
+        return 0
 
 if __name__ == "__main__":
     if check_minimum_requirements():
-        tracemalloc.start()
-        execution_time = timeit.timeit(main_logic, number=1)
-        print(f"Execution time: {execution_time} seconds")
-        print(f"Memory: {tracemalloc.get_traced_memory()[1]/10**6} MB")
-        tracemalloc.stop()
+        logging.info(f"Starting execution")
+        main_logic()
+        logging.info(f"Execution completed")
     else:
         print(f"Minimum requirements not met. Please check the requirements and try again.")
     
